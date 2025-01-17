@@ -1,0 +1,11 @@
+module Infotainment
+typeinfo appInfotainment.qmltypes
+prefer :/qt/qml/Infotainment/
+Main 1.0 Main.qml
+BottomBar 1.0 ui/BottomBar/BottomBar.qml
+RightScreen 1.0 ui/RightScreen/RightScreen.qml
+LeftScreen 1.0 ui/LeftScreen/LeftScreen.qml
+NavigationSearchBox 1.0 ui/RightScreen/NavigationSearchBox.qml
+HVACComponent 1.0 ui/BottomBar/HVACComponent.qml
+VolumeControlComponent 1.0 ui/BottomBar/VolumeControlComponent.qml
+

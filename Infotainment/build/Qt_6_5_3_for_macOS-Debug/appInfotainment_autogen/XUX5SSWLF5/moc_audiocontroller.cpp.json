@@ -1,0 +1,67 @@
+{
+    "classes": [
+        {
+            "className": "AudioController",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "val",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "incrementVolume",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "volumeLevel",
+                    "notify": "volumeLevelChanged",
+                    "read": "volumeLevel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setVolumeLevel"
+                }
+            ],
+            "qualifiedClassName": "AudioController",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "volumeLevelChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newVolumeLevel",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setVolumeLevel",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "audiocontroller.h",
+    "outputRevision": 68
+}
